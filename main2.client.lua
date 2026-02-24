@@ -239,7 +239,7 @@ TabSettings:Dropdown({
 
 
 
-local Section = Window:Section({
+local Section = Tab1:Section({
     TItle = "Hi1",
     Icon = "rbxassetid://77799629590713",
     IconThemed = true,
