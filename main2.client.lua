@@ -25,7 +25,9 @@ do
     end
 end
 
-local ThemeName = "Crimson"
+
+--WindUI.TransparencyValue = .9
+local ThemeName = "MonokaiPro"
 
 
 local Window = WindUI:CreateWindow({
@@ -34,11 +36,14 @@ local Window = WindUI:CreateWindow({
     Icon = "solar:compass-big-bold",
     Theme = ThemeName,
     NewElements = true,
+    Transparent = true,
+    Acrylic = true,
 })
 
 local Tab1 = Window:Tab({
     Title = "Main",
-    Icon = "solar:home-bold",
+    Icon = "rbxassetid://77799629590713",
+    IconThemed = true,
 })
 
 Tab1:Select()
@@ -225,4 +230,17 @@ TabSettings:Dropdown({
             Window:SetAuthor("by .ftgs")
         end
     end,
+})
+
+
+
+
+
+
+
+
+local Section = Window:Section({
+    TItle = "Hi1",
+    Icon = "rbxassetid://77799629590713",
+    IconThemed = true,
 })
