@@ -131,7 +131,7 @@ return function(distance)
 
 	Blur.AddParent = function(Parent)
 		Creator.AddSignal(Parent:GetPropertyChangedSignal("Visible"), function()
-			Blur.SetVisibility(Parent.Visible)
+			--Blur.SetVisibility(Parent.Visible)
 		end)
 	end
 
